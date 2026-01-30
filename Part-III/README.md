@@ -1,10 +1,27 @@
-## Part III – Web Service for TOPSIS
+# Part III – Web Service for TOPSIS
 
-A web service was designed using Flask where users can:
+## Description
+A web service was developed using Flask to perform TOPSIS through a web interface.
+
+## Features
 - Upload input CSV file
 - Enter weights and impacts
-- Provide email ID
-- Receive result CSV via email
+- Email ID validation
+- Generate TOPSIS result
+- Result delivery via email (simulated)
 
-Input validations are applied for weights, impacts, and email format.
+## Input Validation
+- Number of weights equals number of impacts
+- Impacts must be + or -
+- Weights and impacts are comma separated
+- Email format is validated
 
+## Technologies Used
+- Python
+- Flask
+- HTML
+- Pandas
+- NumPy
+
+## Note
+Email sending functionality is simulated for demonstration purposes.
