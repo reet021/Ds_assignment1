@@ -1,10 +1,6 @@
-## Part II – Python Package
+Part II – Python Package Development
 
-The TOPSIS implementation from Part I was converted into a Python package
-named `Topsis-Reet-102303532`.
+The TOPSIS implementation was converted into a Python package
+named Topsis-Reet-102303532 following PyPI standards.
 
-The package follows standard Python packaging structure and can be installed
-using pip after uploading to PyPI.
-
-Command-line execution is supported using entry points.
-
+The package supports command-line execution using entry points.
